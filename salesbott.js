@@ -5,7 +5,7 @@ const CONTRACT = "0xe277A7643562775C4f4257E23B068ba8F45608b4";
 const RPC = "https://rpc.apechain.com";
 const WEBHOOK = "https://discord.com/api/webhooks/1480039696426991697/bc47-dpQWCay4cyNpvaYcEnX6hY4KirKs3ZaB1grDuvQIlO7blAqUetwigPBK0Od-X-k";
 
-const OPENSEA_COLLECTION = "https://opensea.io/collection/primalcult";
+const OPENSEA_COLLECTION = "https://opensea.io/item/ape_chain/0xe277a7643562775c4f4257e23b068ba8f45608b4";
 const IMAGE_BASE = "https://ipfs.primalcult.xyz/images";
 
 const provider = new ethers.JsonRpcProvider(RPC);
@@ -116,5 +116,6 @@ console.log("Error:",e.message);
 }
 
 }
+
 
 setInterval(checkSales,15000);
